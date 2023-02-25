@@ -1,0 +1,72 @@
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+body{
+    background-image: url(images/bg-pattern-bottom.svg),url(images/bg-pattern-top.svg);
+    background-position:   right bottom 200%,left top 200%;
+    background-repeat: no-repeat;
+
+    /*
+    background-color:  hsl(199, 58%, 49%) */
+    background-color: hsl(185, 75%, 39%);
+
+
+}
+
+.outer{
+    width: 30%;
+    margin: auto;
+    margin-top: 13%;
+    padding-bottom: 6%;
+    background-color: white;
+    border-radius: 7%;
+    
+}
+
+.img{
+    display: block;
+    margin: auto;
+    width: 20%;
+    margin-top: -10%;
+    border: top 1%;
+    border-radius: 100%;
+}
+
+.img1{
+    display: block;
+    margin: auto;
+    width: 100%;
+    z-index: -3;
+    border-radius: 8%;
+}
+
+p{
+    font-family: 'Kumbh Sans';
+    text-align: center;
+
+}
+.grey{
+    color: hsl(227, 10%, 46%);
+}
+
+.stats{
+    display: block;
+    width: 100%;
+    text-align:center;
+}
+
+.stat{
+    display: inline-block;
+    width: 20%;
+    margin: auto;
+    text-align: center;
+}
+
+.footer{
+    padding: 3%;
+    position: relative;
+    background-color: aliceblue;
+    font-size: large;
+    font-weight: bold;
+}

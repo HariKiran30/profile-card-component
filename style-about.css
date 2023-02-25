@@ -1,0 +1,33 @@
+body{
+    background-color: lightblue;
+}
+.design{
+    margin: auto;
+    width: 50%;
+    padding-top: 10%;
+}
+.back-to{
+    text-decoration: none;
+    position:fixed;
+    background-color: greenyellow;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    padding-left: 1%;
+    padding-right: 1%;
+
+    border-radius: 50% 20% / 10% 40%;
+    color: blue;
+    font-weight: bold;
+}
+
+.a-tag{
+    text-decoration:underline;
+    color: gray;
+    font-weight:900 ;
+    font-size:xx-large;
+    
+}
+
+h1{
+    color: beige;
+}
